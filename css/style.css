@@ -1,0 +1,15 @@
+header{
+    display: block;
+}
+header img{
+    float: left;
+}
+nav{
+    float: right;
+}
+h1{
+    font-family: 'Parisienne', cursive;
+}
+h3{
+    color: gray;
+}
