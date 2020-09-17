@@ -1,5 +1,11 @@
+body{
+    margin: auto;
+    width: 900px;
+}
+
 header{
     display: block;
+    border-bottom: 10px dotted #000000;
 }
 header img{
     float: left;
@@ -11,5 +17,97 @@ h1{
     font-family: 'Parisienne', cursive;
 }
 h3{
+    color: gray;
+}
+.title{
+    display: block;
+
+}
+.print{
+    float: right;
+}
+.choco{
+    width: 100%;
+
+}
+#pr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color:gray;
+}
+main p{
+    text-indent: 50px;
+    text-align: justify;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: initial;
+    
+}
+#container{
+    position: relative;
+    text-align: center;
+}
+#list{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    text-align: left;
+}
+#list1{
+    float: left;
+   
+    
+}
+ #list2{
+ 
+    float:left;
+
+   
+}
+
+
+ul li {
+    list-style-type: none;
+}
+li {
+    padding-left: 0;
+    margin-left: 0;
+}
+main{
+    border-bottom: 10px dotted black;
+}
+#foot1{
+    display: block;
+
+}
+#girl{
+    float: left;
+}
+#logo2{
+    clear: both;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+   
+
+}
+footer button{
+    
+    float: right;
+    background-color:brown ;
+    color: honeydew;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    padding-left:  15px;
+    padding-right:  15px;
+
+
+}
+
+
+#corights{
+    text-align: center;
     color: gray;
 }
